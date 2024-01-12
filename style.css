@@ -1,0 +1,109 @@
+
+/* ----- PRINCIPAL ----- */
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 180px;
+    
+}
+
+.container {
+    background-color: antiquewhite;
+    padding: 20px;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px;
+    display: block;
+   
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+/* ----- IMAGEM EM SVG -----  */
+
+.svg {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+/* ------- TEXTOS ------  */
+p {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+h4 {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.4em;
+    width: 70px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    
+}
+
+h1 {
+    font-family: "Figtree", sans-serif;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+span {
+    border: none;
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*  ----- PERFIL ----- */
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.perfil {
+    
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    
+        
+}
+
+.imageperfil {
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+}
+
+
+/* ----- FOOTER ----- */
+
+
+.footer {
+display: flex;
+align-content: center;
+padding: 20px;
+text-align: center;
+font-size: 11px; 
+text-align: center; 
+color: hsl(228, 45%, 44%); 
+}
